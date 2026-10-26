@@ -1,0 +1,295 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_1",
+      "name": "Victoria Stone",
+      "email": "admin@hotelpro.com",
+      "passwordHash": "$2a$10$0KqhekbCQDpJx8t2mZMVReJqis0YCYu6UPPnOp5ds/JtFo5xf2Xwq",
+      "role": "admin",
+      "phone": "+1 (555) 019-2834",
+      "createdAt": "2026-10-26T17:22:44.954Z",
+      "updatedAt": "2026-10-26T17:22:44.954Z"
+    },
+    {
+      "id": "usr_guest_1",
+      "name": "Alexander Hayes",
+      "email": "guest@example.com",
+      "passwordHash": "$2a$10$xhbZ7N2PqLRJWAMir21K6.b6JkidG9xqvNHEHg65AD37xHma3lINO",
+      "role": "guest",
+      "phone": "+1 (555) 014-9921",
+      "createdAt": "2026-10-26T17:22:44.954Z",
+      "updatedAt": "2026-10-26T17:22:44.954Z"
+    },
+    {
+      "id": "usr_guest_2",
+      "name": "Elena Rostova",
+      "email": "elena.rostova@example.com",
+      "passwordHash": "$2a$10$xhbZ7N2PqLRJWAMir21K6.b6JkidG9xqvNHEHg65AD37xHma3lINO",
+      "role": "guest",
+      "phone": "+1 (555) 018-4720",
+      "createdAt": "2026-10-26T17:22:44.954Z",
+      "updatedAt": "2026-10-26T17:22:44.954Z"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "room_101",
+      "roomNumber": "101",
+      "roomType": "Deluxe Ocean Suite",
+      "title": "Azure Horizon Deluxe Suite",
+      "description": "Perched directly above the coastline with unobstructed azure ocean vistas. Features a custom king bed dressed in 400-thread Egyptian cotton, a private teak balcony with sun loungers, and an Italian marble en-suite bathroom with a freestanding soaking tub.",
+      "pricePerNight": 380,
+      "capacity": 2,
+      "bedType": "King Bed",
+      "sizeSqFt": 620,
+      "view": "Oceanfront Panoramic",
+      "floor": 1,
+      "amenities": [
+        "Oceanfront Balcony",
+        "Free Ultra-Speed WiFi",
+        "Deep Soaking Tub",
+        "King Bed",
+        "Nespresso Bar",
+        "Artisan Breakfast Included",
+        "Spa Access",
+        "Smart Room Climate"
+      ],
+      "images": [
+        "/src/assets/images/room_deluxe_ocean_1793034471458.jpg",
+        "/src/assets/images/hero_hotel_resort_1793034471010.jpg"
+      ],
+      "operationalStatus": "active",
+      "createdAt": "2026-10-26T17:22:44.954Z",
+      "updatedAt": "2026-10-26T17:22:44.954Z"
+    },
+    {
+      "id": "room_201",
+      "roomNumber": "201",
+      "roomType": "Executive Suite",
+      "title": "Metropolitan Executive Suite",
+      "description": "An expansive modern suite designed for discerning travelers. Features floor-to-ceiling soundproof glass walls, a dedicated lounge with velvet sofa and marble table, an executive work desk with ergonomic seating, and priority club access.",
+      "pricePerNight": 490,
+      "capacity": 3,
+      "bedType": "California King + Daybed",
+      "sizeSqFt": 840,
+      "view": "Skyline & Bay View",
+      "floor": 2,
+      "amenities": [
+        "Panoramic Bay Views",
+        "Executive Club Access",
+        "Designer Lounge Area",
+        "Rainfall Dual Shower",
+        "High-Speed Mesh WiFi",
+        "Stocked Gourmet Minibar",
+        "24h Dedicated Concierge"
+      ],
+      "images": [
+        "/src/assets/images/room_executive_suite_1793034471925.jpg",
+        "/src/assets/images/hotel_amenities_spa_1793034472431.jpg"
+      ],
+      "operationalStatus": "active",
+      "createdAt": "2026-10-26T17:22:44.954Z",
+      "updatedAt": "2026-10-26T17:22:44.954Z"
+    },
+    {
+      "id": "room_301",
+      "roomNumber": "301",
+      "roomType": "Garden Villa",
+      "title": "Sanctuary Private Garden Villa",
+      "description": "Secluded tropical oasis surrounded by verdant hibiscus and frangipani. Offers complete privacy with an exclusive temperature-controlled plunge pool, open-air sun deck, outdoor rainfall shower, and handcrafted teak furnishings.",
+      "pricePerNight": 680,
+      "capacity": 4,
+      "bedType": "2 King Beds",
+      "sizeSqFt": 1250,
+      "view": "Private Tropical Garden & Pool",
+      "floor": 1,
+      "amenities": [
+        "Private Plunge Pool",
+        "Outdoor Rainfall Shower",
+        "Secluded Sun Deck",
+        "Tropical Garden Enclosure",
+        "Personal Butler Service",
+        "Daily In-Villa Breakfast",
+        "Complimentary Thermal Spa Pass"
+      ],
+      "images": [
+        "/src/assets/images/room_garden_villa_1793034472248.jpg",
+        "/src/assets/images/hotel_amenities_spa_1793034472431.jpg"
+      ],
+      "operationalStatus": "active",
+      "createdAt": "2026-10-26T17:22:44.954Z",
+      "updatedAt": "2026-10-26T17:22:44.954Z"
+    },
+    {
+      "id": "room_102",
+      "roomNumber": "102",
+      "roomType": "Deluxe Ocean Suite",
+      "title": "Pacific Breeze Terrace Suite",
+      "description": "Bright and breezy coastal haven on the resort ground terrace. Walk directly onto manicured lawn paths toward the infinity pool and beach bar. Equipped with premium acoustic insulation and sound systems.",
+      "pricePerNight": 350,
+      "capacity": 2,
+      "bedType": "King Bed",
+      "sizeSqFt": 580,
+      "view": "Pool & Partial Ocean",
+      "floor": 1,
+      "amenities": [
+        "Direct Terrace Access",
+        "King Bed",
+        "Rainfall Shower",
+        "Bose Acoustic System",
+        "High-Speed WiFi",
+        "Organic Toiletries"
+      ],
+      "images": [
+        "/src/assets/images/room_deluxe_ocean_1793034471458.jpg",
+        "/src/assets/images/hero_hotel_resort_1793034471010.jpg"
+      ],
+      "operationalStatus": "active",
+      "createdAt": "2026-10-26T17:22:44.954Z",
+      "updatedAt": "2026-10-26T17:22:44.954Z"
+    },
+    {
+      "id": "room_401",
+      "roomNumber": "401",
+      "roomType": "Penthouse Suite",
+      "title": "The Grand Royal Penthouse",
+      "description": "The pinnacle of luxury at Hotel Pro. Occupying the entire fourth-floor wing with a 360-degree wrap-around terrace, private heated jacuzzi under the stars, full dining salon for eight, and private elevator entry.",
+      "pricePerNight": 980,
+      "capacity": 5,
+      "bedType": "Master King + Second Queen",
+      "sizeSqFt": 1900,
+      "view": "360° Coastal Panoramic",
+      "floor": 4,
+      "amenities": [
+        "Private Wrap-Around Jacuzzi",
+        "Dedicated Private Elevator",
+        "Full Dining Salon",
+        "Sommelier Wine Cellar",
+        "Chauffeured Airport Transfer",
+        "Unlimited Spa Treatments"
+      ],
+      "images": [
+        "/src/assets/images/room_executive_suite_1793034471925.jpg",
+        "/src/assets/images/hero_hotel_resort_1793034471010.jpg"
+      ],
+      "operationalStatus": "active",
+      "createdAt": "2026-10-26T17:22:44.954Z",
+      "updatedAt": "2026-10-26T17:22:44.954Z"
+    },
+    {
+      "id": "room_202",
+      "roomNumber": "202",
+      "roomType": "Executive Suite",
+      "title": "Harbor Crest Corner Suite",
+      "description": "Architectural corner suite with double-aspect windows catching the morning sunrise over the yacht marina. High ceilings and custom walnut paneling create an atmosphere of classic luxury.",
+      "pricePerNight": 460,
+      "capacity": 3,
+      "bedType": "King Bed + Sofa Bed",
+      "sizeSqFt": 790,
+      "view": "Marina & Coastal Bay",
+      "floor": 2,
+      "amenities": [
+        "Double-Aspect Windows",
+        "Deep Soaking Tub",
+        "Executive Desk",
+        "Espresso Station",
+        "High-Speed WiFi",
+        "Evening Turn-Down Service"
+      ],
+      "images": [
+        "/src/assets/images/room_deluxe_ocean_1793034471458.jpg",
+        "/src/assets/images/hotel_amenities_spa_1793034472431.jpg"
+      ],
+      "operationalStatus": "maintenance",
+      "createdAt": "2026-10-26T17:22:44.954Z",
+      "updatedAt": "2026-10-26T17:22:44.954Z"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "bk_sample_1",
+      "bookingReference": "HP-90412-2026",
+      "guestId": "usr_guest_1",
+      "guestName": "Alexander Hayes",
+      "guestEmail": "guest@example.com",
+      "guestPhone": "+1 (555) 014-9921",
+      "specialRequests": "Quiet room on upper floor preferred. Late check-in at 8 PM.",
+      "roomId": "room_101",
+      "roomNumber": "101",
+      "roomType": "Deluxe Ocean Suite",
+      "roomImage": "/src/assets/images/room_deluxe_ocean_1793034471458.jpg",
+      "checkInDate": "2026-11-01",
+      "checkOutDate": "2026-11-05",
+      "nights": 4,
+      "guestsCount": 2,
+      "pricePerNight": 380,
+      "subtotal": 1520,
+      "taxesAndFees": 182,
+      "totalPrice": 1702,
+      "bookingStatus": "confirmed",
+      "createdAt": "2026-10-20T14:20:00.000Z",
+      "updatedAt": "2026-10-20T14:20:00.000Z"
+    },
+    {
+      "id": "bk_sample_2",
+      "bookingReference": "HP-81204-2026",
+      "guestId": "usr_guest_2",
+      "guestName": "Elena Rostova",
+      "guestEmail": "elena.rostova@example.com",
+      "guestPhone": "+1 (555) 018-4720",
+      "specialRequests": "Celebrating anniversary, champagne request.",
+      "roomId": "room_301",
+      "roomNumber": "301",
+      "roomType": "Garden Villa",
+      "roomImage": "/src/assets/images/room_garden_villa_1793034472248.jpg",
+      "checkInDate": "2026-10-24",
+      "checkOutDate": "2026-10-28",
+      "nights": 4,
+      "guestsCount": 2,
+      "pricePerNight": 680,
+      "subtotal": 2720,
+      "taxesAndFees": 326,
+      "totalPrice": 3046,
+      "bookingStatus": "checked_in",
+      "checkInAt": "2026-10-24T15:30:00.000Z",
+      "createdAt": "2026-10-18T10:15:00.000Z",
+      "updatedAt": "2026-10-24T15:30:00.000Z"
+    },
+    {
+      "id": "bk_sample_3",
+      "bookingReference": "HP-74199-2026",
+      "guestId": "usr_guest_1",
+      "guestName": "Alexander Hayes",
+      "guestEmail": "guest@example.com",
+      "guestPhone": "+1 (555) 014-9921",
+      "roomId": "room_201",
+      "roomNumber": "201",
+      "roomType": "Executive Suite",
+      "roomImage": "/src/assets/images/room_executive_suite_1793034471925.jpg",
+      "checkInDate": "2026-09-10",
+      "checkOutDate": "2026-09-14",
+      "nights": 4,
+      "guestsCount": 2,
+      "pricePerNight": 490,
+      "subtotal": 1960,
+      "taxesAndFees": 235,
+      "totalPrice": 2195,
+      "bookingStatus": "completed",
+      "checkInAt": "2026-09-10T14:10:00.000Z",
+      "checkedOutAt": "2026-09-14T11:00:00.000Z",
+      "createdAt": "2026-08-25T09:00:00.000Z",
+      "updatedAt": "2026-09-14T11:00:00.000Z"
+    }
+  ],
+  "roomHolds": [
+    {
+      "id": "hold_1793035384742_a9y6",
+      "roomId": "room_101",
+      "checkInDate": "2026-11-10",
+      "checkOutDate": "2026-11-13",
+      "expiresAt": "2026-10-26T17:33:04.742Z",
+      "status": "released",
+      "createdAt": "2026-10-26T17:23:04.742Z"
+    }
+  ]
+}

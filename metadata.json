@@ -1,0 +1,6 @@
+{
+  "name": "Hotel Pro — Hotel Reservation & Property Management System",
+  "description": "Full-stack hotel reservation and property management system for guests to search, hold, and book rooms, and administrators to manage rooms, bookings, and operations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
