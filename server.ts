@@ -38,7 +38,7 @@ async function startServer() {
   }
 
   app.listen(PORT, '0.0.0.0', () => {
-    console.log(`Hotel Pro full-stack server running on http://0.0.0.0:${PORT}`);
+    console.log(`Hotel Pro full-stack server running at http://localhost:${PORT}`);
   });
 }
 
