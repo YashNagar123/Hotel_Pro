@@ -2,7 +2,7 @@
 
 Hotel Pro is a production-ready, full-stack web application designed for modern hospitality businesses. Built on the MERN stack with a strict Model-View-Controller (MVC) architecture, the system provides real-time room availability orchestration, strict double-booking protections via atomic concurrency locks, digital self-service check-in workflows, and an administrative dashboard for real-time occupancy and revenue tracking. 
 
-### 🚀 Key System Features
+###  Key System Features
 
 * **Dynamic Room Catalog & Live Orchestration:** Real-time synchronization of room inventory across statuses (available, locked, occupied, maintenance).
 * **Concurrency Protection (Double-Booking Prevention):** Implements an atomic document-locking mechanism using MongoDB workflows. Selecting a room secures a strict 10-minute hold window, automatically clearing via system timeouts if the check-out flow isn't completed.
@@ -27,30 +27,31 @@ Hotel Pro is a production-ready, full-stack web application designed for modern 
 * **Data Integration Layer:** Axios instance networks utilizing unified configuration variables
 * **Iconography Components:** Lucide React libraries
 
-### 📂 Project Structure
+###  Project Structure
 
-text
+* **hotel-pro/** (Root Directory) 
 
-hotel-pro/
-├── backend/
-│   ├── config/          # Database connection settings
-│   ├── controllers/     # Business logic for Auth, Rooms, and Bookings
-│   ├── middleware/      # Authentication and RBAC route verification
-│   ├── models/          # Mongoose Schemas (User, Room, Booking)
-│   ├── routes/          # Express route declarations mapped to controllers
-│   ├── seed/            # Mock data ingestion scripts for development
-│   └── server.js        # Core application entry point
-└── frontend/
-    ├── src/
-    │   ├── components/  # Navbars, Sidebars, Protected Route guards, Spinners
-    │   ├── context/     # Global Authentication State Provider
-    │   ├── hooks/       # Custom React state abstractions
-    │   ├── pages/       # Dashboards, Catalogs, Check-in interfaces, Landing pages
-    │   └── utils/       # Centralized Axios network instances
+  *  **backend/** — Core server workspace. 
 
-Use code with caution.
+    * config/ — Database setup & infrastructure configuration.
+    * controllers/ — Core business logic for endpoints.
+    * middleware/ — Security guards, session checks & RBAC layers.
+    * models/ — Data schemas representing system entities.
+    * routes/ — Endpoint mapping connecting client entry gateways.
+    * seed/ — Mock ingestion logic for framework staging.
+    * server.js — Main launchpad for the system engine.
+      
+  *  **frontend/** — Client rendering dashboard setup. 
 
-### 📦 System Installation & Environment Setup
+    * **src/** — Dynamic asset folder tree. 
+
+      * components/ — Shared structural layouts, loaders & layout elements.
+      * context/ — State orchestration engines managing authorization globally.
+      * hooks/ — Modular functional layout hook components.
+      * pages/ — View interface panels containing system operational hubs.
+      * utils/ — Interceptor setups managing core API connections.
+
+###  System Installation & Environment Setup
 
 ### 1. Prerequisites
 
@@ -99,7 +100,7 @@ env
 
 VITE_API_URL=http://localhost:5000/api
 
-### 💻 Running the Application
+###  Running the Application
 
 ### Launch the Backend Engine
 
@@ -109,7 +110,6 @@ bash
 
 npm run dev
 
-Use code with caution.
 
 The server will boot and confirm connection bindings on http://localhost:5000. 
 
@@ -121,11 +121,10 @@ bash
 
 npm run dev
 
-Use code with caution.
 
 Open your browser to the local address provided by Vite (typically http://localhost:5173) to interact with the operational dashboard interface. 
 
-### 🛡️ Quality & System Guardrails
+###  Quality & System Guardrails
 
 * **Data Consistency Isolation:** Room matching operations utilize strict validations ensuring guest counts never bypass absolute maximum capacity boundaries.
 * **Resilient Async Handlers:** Every asynchronous data pipeline is encapsulated within dedicated try-catch boundaries, ensuring standard JSON response structural integrity: { success: false, message: "Standard clear explanation string" }.
